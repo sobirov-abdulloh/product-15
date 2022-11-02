@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.abdullo {
+  display: flex;
+  align-items: center;
+}
+header {
+  background-color: rgb(46, 46, 46);
+  padding: 5px 80px;
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+#poisk {
+  background-color: white;
+  margin: 0 40px 0 20px;
+  width: 40%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+}
+#poisk > input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+#header_on {
+  height: 30px;
+  margin-right: 100px;
+}
+#header_on > span {
+  color: white;
+  margin: 0 10px;
+}
+#rasm {
+  margin-left: 10px;
+}
+#dad {
+  background-color: rgb(216, 216, 216);
+  height: 50px;
+  padding: 30px 130px 10px;
+}
+#box2 {
+  margin-top: -10px;
+  margin-left: 120px;
+}
+#rre {
+  height: 20px;
+  margin-top: -10px;
+}
+#box1 > p {
+  font-size: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+i {
+  margin-left: 5px;
+  cursor: pointer;
+}
+#x > img {
+  margin-left: 15px;
+}
+/* ==================================================================== */
+.kotta_body {
+  background-color: #fffbf8;
+  display: flex;
+}
+.budy {
+  padding-top: 30px;
+  padding-left: 130px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.pppp > p {
+  margin-right: 15px;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+}
+.budy > h2 {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  margin-left: -4px;
+}
+.budy > p {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+#kichkina_input {
+  display: grid;
+  grid-template-columns: 18% 80%;
+  margin-bottom: 15px;
+}
+#kichkina_input > input {
+  border: 1px solid rgb(185, 185, 185);
+  margin-top: -7px;
+  padding: 5px 10px;
+  border-radius: 9px;
+  outline: none;
+}
+#kichkina_input > p {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+#kichkina_input > p > span {
+  margin-left: 5px;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 19px;
+  color: rgba(42, 42, 42, 0.44);
+}
+#input > p,#mini_input > p{
+  margin-top: 25px;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: rgba(42, 42, 42, 0.44);
+}
+#input > p > span,#mini_input > p > span{
+  margin-right: 8px;
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 19px;
+  color: rgba(42, 42, 42, 0.44);
+}
+#input {
+  margin-bottom: 80px;
+}
+.info {
+  margin-top: 140px;
+  margin-left: 150px;
+  padding: 30px 30px 20px 30px;
+  background-color: white;
+  box-shadow: 5px 6px 16px rgba(42, 42, 42, 0.16);
+  border-radius: 9px;
+  height: 50%;
+}
+.info > h3 {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+  color: #f9a43f;
+}
+.info > p {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.info > p > span {
+  margin-left: 25px;
+}
+#plpl {
+  margin-top: -15px;
+}
+#mini_input > h3{
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
